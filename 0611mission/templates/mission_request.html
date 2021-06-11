@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Sign UP!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {margin:0;}
+        
+        .icon-bar {
+          width: 100%;
+          background-color: rgb(250, 255, 151);
+          overflow: auto;
+        }
+        
+        .icon-bar a {
+          float: left;
+          width: 15%;
+          text-align: center;
+          padding: 5px 0;
+          transition: all 0.3s ease;
+          color: rgb(183, 255, 67);
+          font-size: 25px;
+        }
+        
+        .icon-bar a:hover {
+          background-color: rgb(255, 245, 112);
+        }
+        
+        .active {
+          background-color: #ffdb7a;
+        }
+        </style>
+</head>
+<body>
+    <div class="icon-bar">
+        <a href="http://127.0.0.1:5000/"><i class="fa fa-fort-awesome"></i></a> 
+        <a href="#"><i class="fa fa-search"></i></a> 
+        <a href="https://github.com/dilatata"><i class="fa fa-github"></i></a> 
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-thumbs-o-up"></i></a> 
+    </div>
+    
+    <h2 align=center>SIGN IN</h2>
+
+    <form align=center action="signup", method = "post">
+
+        <label>id:</label><br>
+            <input type="text" id="id" name="id" value="hiworld"><br>
+
+        <label>pw:</label><br>
+            <input type="password" id="pw" name="pw" value="123456"><br><br>
+        
+        <label>email:</label><br>
+            <input type="email" id="email" name="email" value="email@gmail.com"><br><br>
+
+        <input type="submit" value="singup">
+
+    </form> 
+    
+</body>
+</html>
